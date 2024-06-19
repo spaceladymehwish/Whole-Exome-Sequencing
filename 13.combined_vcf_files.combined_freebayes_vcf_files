@@ -1,0 +1,6 @@
+
+to combine all free bayes vcf files into one:
+
+run this command in the freebayes vcf folder
+
+cat *.vcf | vcffirstheader | vcfstreamsort | vcfuniq > combined.vcf

@@ -1,0 +1,4 @@
+
+open terminal in the respective folder or goto the folder with cd command
+
+sambamba markdup -r -t 12 ~/Desktop/melanoma_WES/Alignment/bwa_mem/sort/ERR340324_sorted.bam ERR340324_dedup.bam

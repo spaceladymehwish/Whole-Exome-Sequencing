@@ -1,0 +1,14 @@
+
+
+
+to extract snps from combined vcf file
+
+
+vcftools --vcf combined.vcf --minQ 20 --minDP 10 --recode --recode-INFO-all --remove-indels --out snps_only
+
+
+to extract indels from combined vcf file
+
+
+vcftools --vcf combined.vcf --minQ 20 --minDP 10 --recode --recode-INFO-all --keep-only-indels --out indels.vcf
+

@@ -1,0 +1,8 @@
+sort non_coding_ensembl | uniq > unique_noncoding_ensembl.txt
+grep Genes_Uniprot_IDs.csv -f file_pdb.csv
+
+
+
+./vep -i 0000.vcf -o vep-o.txt --offline
+
+

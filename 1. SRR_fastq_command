@@ -1,0 +1,7 @@
+#Accessing fastq files stored in SRR14753170 ID
+
+#Open terminal in ~/Downloads/sratoolkit.3.0.2-ubuntu64$
+
+  ~/Downloads/sratoolkit.3.0.2-ubuntu64/bin/./fastq-dump --split-3 --origfmt --gzip -O ~/Desktop/melanoma_RNASeq/RAW/ SRR14753170
+
+

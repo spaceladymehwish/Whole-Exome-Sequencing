@@ -1,0 +1,8 @@
+
+java -jar ~/Downloads/snpEff/SnpSift.jar filter "(QUAL>=30)&&(DP>=25)" annotated_snpEff_snps.vcf > annotated_filtered_sift_snps.vcf
+
+or 
+
+java -jar ~/Downloads/snpEff/SnpSift.jar filter "(QUAL>=30)&&(DP>=25)" annotated_snpEff_indels.vcf > annotated_filtered_sift_indels.vcf
+
+after getting the variants, we can divide these into coding and non-coding variants using dplyr function of R, then perform protein protein interaction, network analysis, hub gene identification and enrichment analysis
